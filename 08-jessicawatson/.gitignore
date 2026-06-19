@@ -1,0 +1,10 @@
+# Mac sistem dosyaları
+.DS_Store
+
+# Editör dosyaları 
+.vscode/
+.idea/
+
+# Build / output klasörleri 
+dist/
+build/
