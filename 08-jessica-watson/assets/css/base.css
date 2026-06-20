@@ -1,0 +1,29 @@
+/* Burada global şeyler olur:
+base → DNA */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  margin-left: 26px;
+}
+.navbar-social a {
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+li {
+  list-style: none;
+}

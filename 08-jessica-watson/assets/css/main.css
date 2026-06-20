@@ -1,0 +1,7 @@
+/* main → hepsini bağlayan dosya */
+
+@import url(base.css);
+@import url(componets.css);
+@import url(layout.css);
+@import url(pages.css);
+@import url(responsive.css);
