@@ -9,12 +9,12 @@ input */
 
 a,
 i {
-  color: rgb(91, 91, 91);
+  color: rgb(69, 69, 69);
 }
 
 a:hover,
 i:hover {
-  transition: all 0.6s ease;
+  transition: all 0.3s ease;
   color: #dc1877;
 }
 
