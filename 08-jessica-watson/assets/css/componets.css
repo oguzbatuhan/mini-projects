@@ -14,7 +14,7 @@
 
 /* Hero linkleri itme amaçlı Main içeriklerinin yer aldığı kapsayıcı class. */
 .container-pages {
-  min-height: 60vh;
+  min-height: 70vh;
   width: 80%;
   margin: 0 auto;
 }
@@ -30,10 +30,11 @@ li {
 }
 p {
   line-height: 1.8;
+  font-size: 18px;
 }
 a {
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 20px;
   text-decoration: none;
 }
 .btn {
@@ -44,8 +45,9 @@ a {
 }
 .btn,
 a,
-i {
-  color: rgb(69, 69, 69);
+i,
+p {
+  color: rgb(85, 85, 85);
   cursor: pointer;
 }
 .btn:hover,

@@ -52,11 +52,6 @@
   .d-block {
     display: block;
   }
-
-  /* Hero linkleri itme amaçlı Main içeriklerinin yer aldığı kapsayıcı class. Mobil için +10vh arttırıldı. */
-  .container-pages {
-    min-height: 70vh;
-  }
 }
 
 /* Small Devices. */

@@ -26,8 +26,8 @@
 
 /* Contact pages */
 .contact-pages {
-  max-width: 600px;
-  padding: auto;
+  max-width: 800px;
+  margin: auto;
   color: rgb(69, 69, 69);
 }
 .contact-pages li {
@@ -37,5 +37,29 @@
   margin: 50px 0;
 }
 .contact-pages strong {
+  font-weight: bold;
+}
+
+/* Faqs pages */
+.faqs-pages {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+.faqs-pages .hr {
+  display: block;
+  margin: 40px 0;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.faqs-pages p {
+  display: inline;
+}
+.faqs-pages li {
+  margin-bottom: 20px;
+}
+.faqs-pages h3 {
+  margin: 10px 0;
+}
+.faqs-pages strong {
   font-weight: bold;
 }
