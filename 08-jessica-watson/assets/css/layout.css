@@ -1,22 +1,18 @@
-/* Navbar */
-
+/* Navbar Responsive */
 .navbar-logo {
   width: 300px;
 }
-
 .navbar-links a {
   margin-left: 26px;
 }
 .navbar-social a {
   margin-left: 12px;
 }
-
 .navbar .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .nav-right,
 .nav-right ul,
 .nav-right ul li {
@@ -24,16 +20,14 @@
   align-items: center;
   justify-content: center;
 }
-
 .navbar .hamburger {
   display: none;
-  margin-right: 18px;
 }
-
 .nav-right {
   z-index: 1001;
 }
 
+/* Main */
 main {
   display: flex;
   flex-direction: column;

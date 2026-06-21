@@ -1,51 +1,56 @@
+/* Container */
 .container {
   width: 90%;
   margin: auto;
   padding-top: 8px;
 }
+
+/* Main ana kapsayıcı klası. */
 .pages {
   width: 100%;
-  min-height: calc(100vh - 93.41px);
+  min-height: calc(100vh - 89.5px);
+  padding-bottom: 50px;
 }
+
+/* Hero linkleri itme amaçlı Main içeriklerinin yer aldığı kapsayıcı class. */
 .container-pages {
   min-height: 60vh;
   width: 80%;
   margin: 0 auto;
 }
 
+/* Active clası. */
 .active {
   color: #dc1877;
 }
 
+/* Sayfada kullanılan Button, A, İ ve P teglerinin temel sitilleri. */
 li {
   list-style: none;
 }
-
+p {
+  line-height: 1.8;
+}
+a {
+  font-weight: 900;
+  font-size: 18px;
+  text-decoration: none;
+}
+.btn {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.btn,
 a,
 i {
   color: rgb(69, 69, 69);
-}
-
-a:hover,
-i:hover {
-  transition: all 0.3s ease;
-  color: #dc1877;
-}
-
-a {
-  font-weight: bolder;
-  font-size: 18px;
-}
-
-.btn {
-  border: 0;
-  background-color: white;
-  padding: 0;
-  margin: 0;
   cursor: pointer;
 }
-
-.btn:hover {
+.btn:hover,
+a:hover,
+i:hover {
   transition: all 0.3s ease;
   color: #dc1877;
 }
