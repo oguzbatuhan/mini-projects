@@ -1,11 +1,25 @@
-/* Tekrar kullanılabilir küçük şeyler:
+.container {
+  width: 90%;
+  margin: auto;
+  padding-top: 8px;
+}
+.pages {
+  width: 100%;
+  min-height: calc(100vh - 93.41px);
+}
+.container-pages {
+  min-height: 60vh;
+  width: 80%;
+  margin: 0 auto;
+}
 
-button
-card
-modal
-input */
+.active {
+  color: #dc1877;
+}
 
-/* components → parçalar */
+li {
+  list-style: none;
+}
 
 a,
 i {

@@ -1,22 +1,14 @@
-/* Sayfanın genel yapısı:
-
-navbar
-footer
-container
-grid / flex sistemleri */
-
-/* layout → iskelet */
-
-.container {
-  width: 90%;
-  margin: auto;
-  padding-top: 8px;
-}
-
 /* Navbar */
 
 .navbar-logo {
   width: 300px;
+}
+
+.navbar-links a {
+  margin-left: 26px;
+}
+.navbar-social a {
+  margin-left: 12px;
 }
 
 .navbar .container {
@@ -40,4 +32,10 @@ grid / flex sistemleri */
 
 .nav-right {
   z-index: 1001;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,27 +1,42 @@
-/* home pages / Backround img */
-.home-pages-main {
-  width: 100%;
-  min-height: calc(100vh - 93.41px);
+/* home pages */
+.home-pages {
   background-image: url(../images/backround-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  height: 100%;
+  width: 100%;
 }
-.home-pages-main .hero-links {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.hero-links {
   display: flex;
-  gap: 50px;
+  justify-content: center;
+  gap: 100px;
 }
-.home-pages-main .hero-links a {
+.hero-links a {
   text-decoration: none;
   font-size: 24px;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(8px);
   border-radius: 5px;
-  padding: 5px 20px;
+  padding: 0 20px;
+  margin: 20px 0;
   font-weight: 300;
+}
+
+/* Contact pages */
+
+.contact-pages .container-pages {
+  max-width: 600px;
+  padding: auto;
+  color: rgb(69, 69, 69);
+}
+.contact-pages .container-pages li {
+  margin-bottom: 10px;
+}
+.contact-pages.contact-pages .margin-top {
+  margin-top: 50px;
+}
+.contact-pages.contact-pages .margin-bottom {
+  margin-bottom: 30px;
 }

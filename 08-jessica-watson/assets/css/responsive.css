@@ -13,13 +13,19 @@
   .navbar .hamburger {
     display: block;
   }
+  .navbar-logo {
+    width: 250px;
+  }
+  .pages {
+    min-height: calc(100vh - 80.42px);
+  }
   /* hamburger menü mbil için aktiasyon clasları */
   .navbar .nav-right {
     position: fixed;
     top: 0;
     right: -70%;
     width: 70%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(239, 239, 239, 0.6);
     backdrop-filter: blur(8px);
     transition: all 0.3s ease;
@@ -54,10 +60,18 @@
     display: block;
   }
 
-  /* home pages */
-  .home-pages-main .hero-links {
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
+  .container-pages {
+    min-height: 70vh;
+  }
+}
+@media (max-width: 480px) {
+  .hero-links {
+    gap: 20px;
+  }
+  .hero-links a {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 10px 0;
   }
 }
