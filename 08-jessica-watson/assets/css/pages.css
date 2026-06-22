@@ -60,7 +60,6 @@
 }
 
 /* About pages */
-
 .about-pages {
   max-width: 1200px;
   margin: auto;
@@ -68,17 +67,28 @@
 }
 .about-pages img {
   width: 100%;
-  border-radius: 10px;
+  display: block;
+  transition: all 0.3s ease;
+}
+.about-pages img:hover {
+  transform: scale(1.05);
 }
 .about-pages .left {
   width: 50%;
   margin: 0 20px 10px 0;
   float: left;
+  overflow: hidden;
 }
 .about-pages .right {
   width: 50%;
   margin: 0 0 10px 20px;
   float: right;
+  overflow: hidden;
+}
+li::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .about-pages span {
   font-size: 14px;
