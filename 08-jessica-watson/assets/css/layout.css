@@ -42,3 +42,10 @@ main {
   column-gap: 50px;
   margin: 0 auto 50px auto;
 }
+
+/* Books grid */
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}

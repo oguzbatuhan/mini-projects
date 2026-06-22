@@ -30,12 +30,21 @@
 }
 
 /* Sayfada kullanılan Button, A, İ ve P teglerinin temel sitilleri. */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(85, 85, 85);
+}
 li {
   list-style: none;
 }
 p {
   line-height: 1.8;
   font-size: 18px;
+  cursor: text;
+  color: rgb(85, 85, 85);
 }
 a {
   font-size: 16px;
@@ -49,8 +58,7 @@ a {
 }
 .btn,
 a,
-i,
-p {
+i {
   color: rgb(85, 85, 85);
   cursor: pointer;
 }
