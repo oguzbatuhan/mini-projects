@@ -3,6 +3,8 @@
   width: 300px;
 }
 .navbar-links a {
+  font-weight: 700;
+  font-size: 20px;
   margin-left: 26px;
 }
 .navbar-social a {

@@ -66,4 +66,13 @@
     padding: 2px 15px;
     margin: 10px 0;
   }
+  p {
+    line-height: 1.2;
+    font-size: 16px;
+  }
+  .about-pages .left,
+  .about-pages .right {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
 }

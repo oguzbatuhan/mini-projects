@@ -46,11 +46,6 @@
   margin: auto;
   padding-top: 50px;
 }
-.faqs-pages .hr {
-  display: block;
-  margin: 40px 0;
-  border-bottom: 1px solid rgb(194, 194, 194);
-}
 .faqs-pages p {
   display: inline;
 }
@@ -62,4 +57,35 @@
 }
 .faqs-pages strong {
   font-weight: bold;
+}
+
+/* About pages */
+
+.about-pages {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 25px;
+}
+.about-pages img {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-pages .left {
+  width: 50%;
+  margin: 0 20px 10px 0;
+  float: left;
+}
+.about-pages .right {
+  width: 50%;
+  margin: 0 0 10px 20px;
+  float: right;
+}
+.about-pages span {
+  font-size: 14px;
+}
+.about-pages p {
+  display: inline;
+}
+.about-pages li {
+  margin: 25px 0;
 }
