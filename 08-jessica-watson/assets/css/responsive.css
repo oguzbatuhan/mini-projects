@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+}
+
 /* Large Devices. */
 @media (max-width: 992px) {
   .navbar .hamburger {
@@ -8,6 +14,10 @@
   }
   .pages {
     min-height: calc(100vh - 68.72px);
+  }
+  /* Lates page grid yapısı. */
+  .latest-grid {
+    column-count: 2;
   }
 
   /* hamburger menü mbil uyumlu hale getirmek için claslar. */
@@ -70,9 +80,14 @@
     line-height: 1.2;
     font-size: 16px;
   }
+  /* About page */
   .about-pages .left,
   .about-pages .right {
     width: 100%;
     margin: 0 0 10px 0;
+  }
+  /* Lates page grid yapısı. */
+  .latest-grid {
+    column-count: 1;
   }
 }

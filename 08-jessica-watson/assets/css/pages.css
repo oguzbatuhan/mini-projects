@@ -89,3 +89,50 @@
 .about-pages li {
   margin: 25px 0;
 }
+
+/* Latest page */
+.latest-pages {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 25px;
+}
+.latest-pages .latest-card {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  padding: 15px 15px 30px 15px;
+  gap: 10px;
+  break-inside: avoid;
+  margin-bottom: 50px;
+  transition: all 0.3s ease;
+}
+.latest-pages .latest-card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(220, 24, 119, 0.2) 0px 11px 35px 2px;
+}
+.latest-pages .latest-card-img {
+  display: block;
+  object-fit: cover;
+  overflow: hidden;
+}
+.latest-pages .latest-card-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.latest-pages .latest-card-text {
+  line-height: 1.5;
+  font-size: 16px;
+  cursor: text;
+}
+.latest-pages .latest-card-text a {
+  line-height: 1.5;
+  font-size: 16px;
+}
+.latest-pages .latest-card-reed-more {
+  font-size: 14px;
+}
+.latest-pages .latest-card-date {
+  opacity: 0.4;
+  font-size: 14px;
+}

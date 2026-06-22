@@ -35,3 +35,10 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+/* Latest page grid yapısı.*/
+.latest-grid {
+  column-count: 3;
+  column-gap: 50px;
+  margin: 0 auto 50px auto;
+}
