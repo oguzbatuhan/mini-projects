@@ -1,10 +1,19 @@
 /* Navbar Responsive */
+.navbar {
+  padding: 15px 0;
+}
 .navbar-logo {
   width: 300px;
 }
 .navbar-links a,
 .navbar-social a {
-  margin-left: 18px;
+  margin: 0 9px;
+}
+.navbar-links,
+.navbar-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .navbar .container {
   display: flex;

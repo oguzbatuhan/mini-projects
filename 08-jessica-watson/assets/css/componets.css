@@ -2,14 +2,12 @@
 .container {
   width: 90%;
   margin: auto;
-  padding-top: 8px;
 }
 
 /* Main ana kapsayıcı klası. */
 .pages {
   width: 100%;
-  min-height: calc(100vh - 95.5px);
-  padding-bottom: 50px;
+  min-height: calc(100vh - 117.5px);
 }
 
 /* Hero linkleri itme amaçlı Main içeriklerinin yer aldığı kapsayıcı class. */
@@ -30,6 +28,9 @@
 }
 
 /* Sayfada kullanılan Button, A, İ ve P teglerinin temel sitilleri. */
+.fs-2 {
+  font-size: 2rem;
+}
 p,
 li,
 a {
