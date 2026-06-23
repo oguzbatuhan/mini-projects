@@ -54,13 +54,20 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
 }
+.books-pages .books-grid div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  height: 100%;
+  gap: 30px;
+}
 
 /* Footer */
-.footer {
-  height: 70px;
+.copy-rigth {
+  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
   gap: 5px;
 }

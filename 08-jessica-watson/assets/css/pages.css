@@ -7,9 +7,14 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
+  padding-top: 25px;
 }
 
 /* Tüm sayfalarda ortak */
+.pages {
+  width: 100%;
+  min-height: calc(100vh - 117.5px);
+}
 .hero-links {
   display: flex;
   justify-content: center;
@@ -28,29 +33,26 @@
 .contact-pages {
   max-width: 800px;
   margin: auto;
-  color: rgb(69, 69, 69);
+  padding-top: 25px;
+}
+.contact-pages ul {
+  margin: 25px 0 50px 0;
 }
 .contact-pages li {
-  margin: 10px 0;
-}
-.contact-pages p {
-  margin: 50px 0;
+  margin-bottom: 25px;
 }
 
 /* Faqs pages */
 .faqs-pages {
   max-width: 800px;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 25px;
+}
+.faqs-pages li {
+  margin-bottom: 25px;
 }
 .faqs-pages p {
   display: inline;
-}
-.faqs-pages li {
-  margin-bottom: 20px;
-}
-.faqs-pages h3 {
-  margin: 10px 0;
 }
 
 /* About pages */
@@ -84,12 +86,6 @@ li::after {
   display: block;
   clear: both;
 }
-.about-pages p {
-  display: inline;
-}
-.about-pages li {
-  margin: 25px 0;
-}
 
 /* Latest page */
 .latest-pages {
@@ -122,15 +118,51 @@ li::after {
 .books-pages {
   max-width: 1200px;
   margin: auto;
-}
-.books-pages .books-grid div {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  align-items: center;
-  height: 100%;
-  gap: 30px;
+  padding-top: 25px;
 }
 .books-pages .container-pages div {
   padding: 30px 0 20px 0;
+}
+
+/* Speaking page */
+.speaking-pages {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 25px;
+}
+.speaking-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 25px 0;
+}
+.speaking-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.quetes p {
+  text-align: center;
+}
+.quetes {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.quetes p:first-child {
+  margin: 50px 0;
+}
+.speaking-pages img {
+  width: 100%;
+  margin: 50px 0;
+}
+
+/* footer  */
+.copy-rigth {
+  background-color: black;
 }

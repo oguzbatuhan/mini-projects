@@ -4,12 +4,6 @@
   margin: auto;
 }
 
-/* Main ana kapsayıcı klası. */
-.pages {
-  width: 100%;
-  min-height: calc(100vh - 117.5px);
-}
-
 /* Hero linkleri itme amaçlı Main içeriklerinin yer aldığı kapsayıcı class. */
 .container-pages {
   min-height: 70vh;
@@ -98,5 +92,9 @@ h6 {
 }
 .date {
   font-size: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
+  opacity: 0.4;
+}
+.quote,
+.quote-user {
   opacity: 0.4;
 }
