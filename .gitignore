@@ -1,20 +1,10 @@
-# Node.js / React
-node_modules/
-build/
-dist/
-.env
-*.log
-
-# MacOS / Windows / Linux sistem dosyaları
+# Mac sistem dosyaları
 .DS_Store
-Thumbs.db
 
-# VSCode ayarları
+# Editör dosyaları 
 .vscode/
+.idea/
 
-# npm debug log
-npm-debug.log*
-
-# Temporary files
-*.tmp
-*.bak
+# Build / output klasörleri 
+dist/
+build/
