@@ -93,4 +93,9 @@
   .latest-grid {
     column-count: 1;
   }
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    gap: 0px;
+  }
 }
