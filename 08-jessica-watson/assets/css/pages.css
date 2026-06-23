@@ -16,12 +16,10 @@
 }
 .hero-links a {
   text-decoration: none;
-  font-size: 24px;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(8px);
   border-radius: 5px;
   padding: 5px 20px;
-  font-weight: 800;
 }
 
 /* Contact pages */
@@ -35,9 +33,6 @@
 }
 .contact-pages p {
   margin: 50px 0;
-}
-.contact-pages strong {
-  font-weight: bold;
 }
 
 /* Faqs pages */
@@ -54,9 +49,6 @@
 }
 .faqs-pages h3 {
   margin: 10px 0;
-}
-.faqs-pages strong {
-  font-weight: bold;
 }
 
 /* About pages */
@@ -89,9 +81,6 @@ li::after {
   content: "";
   display: block;
   clear: both;
-}
-.about-pages span {
-  font-size: 14px;
 }
 .about-pages p {
   display: inline;
@@ -126,26 +115,6 @@ li::after {
   object-fit: cover;
   overflow: hidden;
 }
-.latest-pages .latest-card-title {
-  font-size: 22px;
-  font-weight: 500;
-}
-.latest-pages .latest-card-text {
-  line-height: 1.5;
-  font-size: 16px;
-  cursor: text;
-}
-.latest-pages .latest-card-text a {
-  line-height: 1.5;
-  font-size: 16px;
-}
-.latest-pages .latest-card-reed-more {
-  font-size: 14px;
-}
-.latest-pages .latest-card-date {
-  opacity: 0.4;
-  font-size: 14px;
-}
 
 /* Books page */
 .books-pages {
@@ -159,16 +128,6 @@ li::after {
   align-items: center;
   height: 100%;
   gap: 30px;
-}
-.books-pages .btn-purchase {
-  background-color: #dc1877;
-  color: rgb(244, 244, 244);
-  padding: 20px 30px;
-  font-size: 24px;
-  transition: all 0.3s ease-in;
-}
-.books-pages .btn-purchase:hover {
-  background-color: #ff469f;
 }
 .books-pages .container-pages div {
   padding: 30px 0 20px 0;

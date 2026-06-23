@@ -8,7 +8,7 @@
 /* Main ana kapsayıcı klası. */
 .pages {
   width: 100%;
-  min-height: calc(100vh - 89.5px);
+  min-height: calc(100vh - 95.5px);
   padding-bottom: 50px;
 }
 
@@ -26,45 +26,76 @@
 .hr {
   display: block;
   margin: 40px 0;
-  border-bottom: 1px solid rgb(194, 194, 194);
+  border-bottom: 1px solid #ffc8e2;
 }
 
 /* Sayfada kullanılan Button, A, İ ve P teglerinin temel sitilleri. */
-h1,
-h2,
-h3,
-h4,
-h5 {
+p,
+li,
+a {
+  font-size: inherit;
   color: rgb(85, 85, 85);
+  transition: all 0.3s ease;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #dc1877;
 }
 li {
   list-style: none;
 }
-p {
-  line-height: 1.8;
-  font-size: 18px;
-  cursor: text;
-  color: rgb(85, 85, 85);
+h1 {
+  font-size: clamp(2rem, 1.5rem + 2vw, 3.5rem);
+  font-weight: 800;
 }
-a {
-  font-size: 16px;
-  text-decoration: none;
+h2 {
+  font-size: clamp(1.75rem, 1.4rem + 1.5vw, 3rem);
+  font-weight: 800;
 }
+h3 {
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 2.5rem);
+  font-weight: 700;
+}
+h4 {
+  font-size: clamp(1.25rem, 1.1rem + 0.7vw, 2rem);
+  font-weight: 700;
+}
+h5 {
+  font-size: clamp(1.125rem, 1rem + 0.5vw, 1.5rem);
+  font-weight: 600;
+}
+h6 {
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.25rem);
+  font-weight: 600;
+}
+
 .btn {
   border: 0;
   padding: 0;
   margin: 0;
   background-color: white;
 }
-.btn,
-a,
-i {
-  color: rgb(85, 85, 85);
-  cursor: pointer;
+.btn-purchase {
+  background-color: #dc1877;
+  color: rgb(244, 244, 244);
+  padding: 20px 30px;
+  transition: all 0.3s ease-in;
 }
-.btn:hover,
-a:hover,
-i:hover {
-  transition: all 0.3s ease;
-  color: #dc1877;
+.btn-purchase:hover {
+  background-color: #ff469f;
+}
+
+.fw-2 {
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  font-weight: 500;
+}
+.reed-more {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.date {
+  font-size: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
+  opacity: 0.4;
 }

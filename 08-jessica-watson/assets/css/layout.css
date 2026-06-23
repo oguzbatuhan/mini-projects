@@ -2,13 +2,9 @@
 .navbar-logo {
   width: 300px;
 }
-.navbar-links a {
-  font-weight: 700;
-  font-size: 20px;
-  margin-left: 26px;
-}
+.navbar-links a,
 .navbar-social a {
-  margin-left: 12px;
+  margin-left: 18px;
 }
 .navbar .container {
   display: flex;

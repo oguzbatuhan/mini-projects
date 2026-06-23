@@ -13,7 +13,7 @@
     width: 220px;
   }
   .pages {
-    min-height: calc(100vh - 68.72px);
+    min-height: calc(100vh - 74.8px);
   }
   /* Lates page grid yapısı. */
   .latest-grid {
@@ -71,19 +71,17 @@
 
 /* Small Devices. */
 @media (max-width: 576px) {
+  .pages {
+    min-height: calc(100vh - 73.51px);
+  }
   /* Hero linkler mobil için düzenlendi. */
   .hero-links {
     gap: 20px;
   }
   .hero-links a {
-    font-size: 18px;
     border-radius: 5px;
     padding: 2px 15px;
     margin: 10px 0;
-  }
-  p {
-    line-height: 1.2;
-    font-size: 16px;
   }
   /* About page */
   .about-pages .left,
